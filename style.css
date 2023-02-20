@@ -5,7 +5,7 @@
     box-sizing: border-box;
 
 }
-.hero{
+.core{
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -146,32 +146,32 @@ footer p{
     color:white
 }
 @media only screen and (max-width: 767px) {
-    .hero nav {
+    .core nav {
       display: flex;
       flex-direction: column;
       align-items: center;
     }
     
-    .hero .logo {
+    .core .logo {
       font-size: 30px;
     }
     
-    .hero ul {
+    .core ul {
       display: flex;
       justify-content: center;
       margin-top: 20px;
       margin-bottom: 0;
     }
     
-    .hero li {
+    .core li {
       margin: 0 15px;
     }
     
-    .hero li i {
+    .core li i {
       font-size: 24px;
     }
     
-    .hero .content {
+    .core .content {
       text-align: center;
       margin-top: 50px;
     }
@@ -192,33 +192,33 @@ footer p{
   }
   
   @media only screen and (min-width: 768px) {
-    .hero nav {
+    .core nav {
       display: flex;
       align-items: center;
       justify-content: space-between;
       margin-bottom: 50px;
     }
     
-    .hero .logo {
+    .core .logo {
       font-size: 40px;
     }
     
-    .hero ul {
+    .core ul {
       display: flex;
       justify-content: center;
       margin-top: 0;
       margin-bottom: 0;
     }
     
-    .hero li {
+    .core li {
       margin: 0 15px;
     }
     
-    .hero li i {
+    .core li i {
       font-size: 32px;
     }
     
-    .hero .content {
+    .core .content {
       text-align: center;
       margin-top: 50px;
     }
