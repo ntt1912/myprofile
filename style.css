@@ -198,7 +198,7 @@ footer p{
       justify-content: space-between;
       margin-bottom: 50px;
     }
-    
+
     .core .logo {
       font-size: 40px;
     }
@@ -237,4 +237,40 @@ footer p{
       font-size: 20px;
     }
   }
+  @media screen and (max-width: 645px) {
+    .logo{
+        font-size: 25px;
+    }
+    nav ul li{
+        display: block;
+        padding: 10px 0;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    .content{
+        position: static;
+        transform: none;
+        text-align: center;
+        padding: 0 15px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .about img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .about-text{
+        width: 100%;
+        text-align: center;
+    }
+    .main{
+        flex-direction: column;
+        align-items: center;
+    }
+}
   
